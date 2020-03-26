@@ -1,0 +1,35 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/CodingProjects/4210/projectALU/stimulus_isim_beh.exe -prj E:/CodingProjects/4210/projectALU/stimulus_beh.prj work.stimulus work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/CodingProjects/4210/projectALU/alu.v" into library work
+WARNING:HDLCompiler:568 - "E:/CodingProjects/4210/projectALU/alu.v" Line 253: Constant value is truncated to fit in <4> bits.
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module twotooneBase
+Compiling module ConstVarM
+Compiling module shifter32
+Compiling module fourtooneBase
+Compiling module logicOne
+Compiling module logicFour
+Compiling module logicEight
+Compiling module logicThirtyTwo
+Compiling module oneBitAdder
+Compiling module oneBitAdderSub
+Compiling module fourBitAdderSub
+Compiling module eightBitAdderSub
+Compiling module thirtyTwoBitAdderSub
+Compiling module fourtooneA
+Compiling module fourtooneB
+Compiling module fourtooneThirty
+Compiling module ALU_32bits
+Compiling module stimulus
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 19 Verilog Units
+Built simulation executable E:/CodingProjects/4210/projectALU/stimulus_isim_beh.exe
+Fuse Memory Usage: 29296 KB
+Fuse CPU Usage: 514 ms

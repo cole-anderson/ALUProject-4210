@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/CodingProjects/4210/projectALU/stimulus_isim_beh.exe" -prj "E:/CodingProjects/4210/projectALU/stimulus_beh.prj" "work.stimulus" "work.glbl" 
